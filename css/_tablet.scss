@@ -1,0 +1,399 @@
+@media (max-width: 1440px) {
+  .center {
+    padding-left: calc(50% - 310px);
+    padding-right: calc(50% - 310px);
+  }
+  .header {
+    height: auto;
+    padding-top: 14px;
+  }
+  
+  .logo {
+    width: 200px;
+  }
+  .title {
+    font-size: 56px;
+    line-height: 48px;
+    margin-top: 46px;
+    width: 580px;
+  }
+  
+  .arrow {
+    width: 100px;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+  .top-content {
+    flex-direction: column;
+  }
+  .top {
+    flex-direction: row;
+  }
+  .list {
+    max-width: 278px;
+  }
+  .top-text {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .top-text a {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.05px;
+    margin-top: 32px;
+  }
+  .order {
+    width: 210px;
+    height: 48px;
+  }
+  .order-desc {
+    display: none;
+  }
+  .order-tab {
+    display: flex;
+  }
+  .figures {
+    margin-top: 75px;
+  }
+  .figure1 {
+    width: 127px;
+    top: 50px;
+    right: 250px;
+  }
+    
+  .figure2 {
+    width: 147px;
+    top: 122px;
+    right: 320px;
+  }
+    
+  .figure3 {
+    width: 298px;
+    top: 145px;
+    right: 160px;
+  }
+    
+  .figure4 {
+    max-width: 630px;
+    position: relative;
+    top: 0px;
+  }
+  .teach {
+    margin-top: 49px;
+    margin-bottom: 47px;
+  }
+  
+  .teach-heading {
+    font-size: 48px;
+    line-height: 43px;
+    margin-bottom: 45px;
+  }
+  
+  .teach-content {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 21px;
+  }
+  
+  .teach-text {
+    margin-bottom: 16px;
+  }
+  .leave {
+    width: 618px;
+    margin: 0 auto;
+    margin-bottom: 57px;
+    border-radius: 18px;
+    padding: 33px 64px 32px 64px;
+  }
+  
+  .leave-order {
+    font-size: 48px;
+    line-height: 43px;
+    margin-bottom: 45px;
+  }
+  
+  .form-box {
+    flex-direction: column;
+    row-gap: 14px;
+  }
+  
+  .form-item {
+    width: 490px;
+    height: 59px;
+    padding: 10px 20px 12px 12px;
+    font-size: 20px;
+    line-height: 27px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .form-item::placeholder {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  
+  .warning {
+    margin-top: 12px;
+    color: rgba(4, 18, 27, 0.48);
+    padding-left: 64px;
+  }
+  
+  .order-link {
+    border-radius: 8px;
+    width: 490px;
+    height: 59px;
+    line-height: 26px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .warning a {
+    color: rgba(4, 18, 27, 0.48);
+  }
+  .prof {
+    margin-bottom: 115px;
+  }
+  
+  .prof-heading {
+    font-size: 48px;
+    line-height: 43px;
+    width: 615px;
+    margin-bottom: 94px;
+  }
+  .prof-content {
+    gap: 26px;
+  }
+  
+  .prof-person {
+    width: 295px;
+  }
+  
+  .prof-teacher {
+    margin-top: 20px;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: -0.1px;
+  }
+  
+  .prof-role {
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 11px;
+    margin-bottom: 14px;
+  }
+  
+  .prof-text {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .how {
+    margin-bottom: 142px;
+  }
+  .how-heading {
+    font-size: 48px;
+    line-height: 41px;
+    margin-bottom: 10px;
+  }
+  
+  .how-content {
+    gap: 35px;
+  }
+  
+  .how-content-first {
+    margin-bottom: 43px;
+  }
+  
+  .how-text {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.05px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .how-block {
+    margin-bottom: 0;
+    width: 294px;
+  }
+  .learn {
+    margin-bottom: 77px;
+  }
+   
+  .learn-heading {
+    font-size: 48px;
+    line-height: 55px;
+    margin-bottom: 31px;
+  }
+   
+  .learn-boy {
+    top: -200px;
+    right: -20px;
+  }
+   
+  .learn-blocks {
+    row-gap: 14px;
+    column-gap: 20px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "ltl ltm"
+    "lbl lbm"
+    "lbr lbr";
+  }
+   
+  .ltl, .ltm, .lbl, .lbm, .lbr {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 15px 20px;
+  }
+   
+  .ltl {
+    grid-area: ltl;
+    width: 219px;
+  }
+  .ltm {
+    grid-area: ltm;
+    width: 300px;
+  }
+  .ltm p {
+    width: 180px;
+  }
+  .lbl {
+    grid-area: lbl;
+    width: 219px;
+  }
+  .lbm {
+    grid-area: lbm;
+    width: 380px;
+  }
+  .lbr {
+    grid-area: lbr;
+    width: 616px;
+  }
+  .program {
+    margin-bottom: 90px;
+  }
+   
+  .program-heading {
+    font-size: 48px;
+    line-height: 55px;
+    margin-bottom: 37px;
+  }
+   
+  .program-content {
+    margin-bottom: 55px;
+    row-gap: 32px;
+  }
+   
+  .program-blocks {
+    column-gap: 24px;
+  }
+   
+  .program-module-block {
+    gap: 14px;
+  }
+   
+  .program-modules-text {
+    font-size: 18px;
+    line-height: 24px;
+    width: 416px;
+  }
+  .cost {
+    flex-direction: column;
+    max-width: 622px;
+    margin-bottom: 90px;
+    padding: 54px 66px 60px 66px;
+  }
+   
+  .cost-block {
+    display: grid;
+    grid-template-columns: 238px 164px;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "cost-heading cost-price"
+    "cost-info cost-info";
+  }
+   
+  .cost-heading {
+    font-size: 48px;
+    line-height: 43px;
+    margin-bottom: 27px;
+    grid-area: cost-heading;
+  }
+   
+  .cost-info {
+    font-size: 20px;
+    line-height: 27px;;
+    margin-bottom: 69px;
+    grid-area: cost-info;
+  }
+   
+  .cost-price {
+    font-size: 56px;
+    line-height: 45px;;
+    grid-area: cost-price;
+  }
+   
+  .cost-form-item {
+    width: 490px;
+  }
+  .cost-order-link {
+    width: 490px;
+  }
+
+  .reply {
+    margin-bottom: 151px;
+  }
+  
+  .reply-heading {
+    font-size: 48px;
+    line-height: 55px;
+    margin-bottom: 66px;
+  }
+
+  .arr {
+    display: none;
+  }
+  .arr-big {
+    width: 64px;
+    height: 53px;
+  }
+  
+  .reply-text {
+    font-size: 24px;
+    line-height: 26px;
+    width: 502px;
+  }
+
+  .brendon-desc {
+    display: none;
+  }
+
+  .brendon-tab {
+    display: block;
+  }
+
+  .rest {
+    margin-bottom: 86px;
+  }
+  
+  .rest-heading {
+    font-size: 48px;
+    line-height: 41px;
+    margin-bottom: 42px;
+  }
+  
+  .rest-col {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer {
+    display: none;
+  }
+
+          
+}

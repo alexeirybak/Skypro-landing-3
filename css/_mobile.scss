@@ -1,0 +1,486 @@
+@media (max-width: 640px) {
+    .center {
+        padding-left: calc(50% - 150px);
+        padding-right: calc(50% - 150px);
+      }
+
+    .header {
+        padding-top: 13px;
+      }
+    
+    .logo {
+        width: 140px;
+      }
+
+    .title {
+        font-size: 32px;
+        line-height: 27px;
+        letter-spacing: -0.25px;
+        margin-top: 30px;
+        margin-bottom: 26px;
+        width: 300px;
+      }
+    
+    .arrow {
+        width: 50px;
+        top: -3px;
+        margin-right: 9px;
+        margin-left: 9px;
+    }
+
+    .list {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .top {
+        flex-direction: column;
+    }
+
+    .top-item {
+        align-items: center;
+    }
+
+    .icon {
+        width: 10px;
+        height: 8px;
+    }
+
+    .top-text {
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -0.05px;
+    }
+
+    .top-text a {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 14px;
+    }
+
+    .order {
+        width: 180px;
+        height: 36px;
+    }
+
+    .figures {
+        margin-top: 17px;
+    }
+
+    .figure1 {
+        width: 71px;
+        top: 30px;
+        left: 120px;
+    }
+      
+    .figure2 {
+        width: 81px;
+        top: 70px;
+        left: 70px;
+    }
+      
+    .figure3 {
+        width: 165px;
+        top: 85px;
+        left: 70px;
+    }
+      
+    .figure4 {
+        max-width: 300px;
+    }
+
+    .teach {
+        margin-top: 36px;
+        margin-bottom: 42px;
+    }
+    
+    .teach-heading {
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: -0.25px;
+    }
+
+    .teach-description {
+      font-size: 18px;
+      line-height: 24px;
+  }
+    
+    .teach-text {
+        margin-bottom: 0;
+    }
+
+    .leave {
+        max-width: 299px;
+        margin: 0 auto;
+        margin-bottom: 47px;
+        padding: 23px 19px 21px 20px;
+    }
+    
+    .leave-order {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 25px;
+    }
+    
+    .form-item {
+        width: 264px;
+        border-radius: 12px;
+        padding: 13px 20px 13px 24px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    
+    .form-item::placeholder {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    
+    .warning {
+        margin-top: 0;
+        padding-left: 20px;
+        font-size: 12px;
+        line-height: 16px;
+        color: #000000;
+    }
+     
+    .order-link {
+        border-radius: 12px;
+        width: 263px;
+        height: 48px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    
+    .warning a {
+        color: #000000;
+    }
+
+    .prof {
+        margin-bottom: 61px;
+    }
+    
+    .prof-heading {
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: -0.25px;
+        width: 300px;
+        margin-bottom: 48px;
+    }
+
+    .prof-content {
+        gap: 55px;
+    }
+    
+    .prof-teacher {
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -0.05px;
+    }
+    
+    .prof-role {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 0px;
+        margin-bottom: 14px;
+    }
+    
+    .prof-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .how {
+        margin-bottom: 42px;
+    }
+    
+    .how-heading {
+      font-size: 32px;
+      line-height: 36px;
+      letter-spacing: -0.25px;
+      margin-bottom: 30px;
+    }
+  
+    .how-content {
+      gap: 22px;
+    }
+  
+    .how-content-first {
+      margin-bottom: 42px;
+    }
+
+    .how-image {
+        width: 300px;
+    }
+  
+    .how-text {
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: -0.05px;
+    }
+  
+    .how-block {
+      margin-bottom: 23px;
+      width: 272px;
+    }
+
+    .learn {
+      margin-bottom: 65px;
+    }
+    
+    .learn-heading {
+      font-size: 32px;
+      line-height: 36px;
+      letter-spacing: -0.25px;
+      margin-bottom: 31px;
+    }
+    
+    .learn-boy {
+      top: -80px;
+      right: 0px;
+    }
+    
+    .learn-blocks {
+      width: 300px;
+      column-gap: 10px;
+      grid-template-columns: auto;
+      grid-template-areas: 
+      "ltl"
+      "ltm"
+      "lbl"
+      "lbm"
+      "lbr"
+      "lbr";
+    }
+    
+    .ltl, .ltm, .lbl, .lbm, .lbr {
+      font-size: 14px;
+      line-height: 20px;
+      padding: 14px 10px;
+    }
+    
+    .ltl {
+      grid-area: ltl;
+      width: 300px;
+    }
+    .ltm {
+      grid-area: ltm;
+      width: 300px;
+    }
+    .ltm p {
+      width: 250px;
+    }
+    .lbl {
+      grid-area: lbl;
+      width: 300px;
+    }
+    .lbm {
+      grid-area: lbm;
+      width: 300px;
+    }
+    .lbr {
+      grid-area: lbr;
+      width: 300px;
+    }
+
+    .program {
+      margin-bottom: 70px;
+    }
+      
+    .program-heading {
+      font-size: 32px;
+      line-height: 36px;
+      letter-spacing: -0.25px;
+      margin-bottom: 22px;
+    }
+    
+    .program-content {
+      margin-bottom: 31px;
+      row-gap: 24px;
+    }
+    
+    .program-blocks {
+      flex-direction: column;
+      column-gap: 2px;
+    }
+    
+    .program-modules {
+      font-size: 20px;
+      line-height: 26px;
+      letter-spacing: -0.05px;
+    }
+    
+    .program-module-block {
+      gap: 10px;
+    }
+    
+    .program-modules-text {
+      font-size: 14px;
+      line-height: 20px;
+      width: 277px;
+    }
+
+    .program-button {
+      border-radius: 6px;
+      border: 1px solid #000000;
+      font-size: 16px;
+      line-height: 24px;
+      width: 153px;
+      height: 40px;  
+    }
+
+    .cost {
+      max-width: 300px;
+      margin: 0 auto;
+      margin-bottom: 67px;
+      padding: 29px 19px 28px 17px;
+    }
+     
+    .cost-block {
+      grid-template-columns: 280px;
+      grid-template-rows: auto;
+      grid-template-areas: 
+      "cost-heading"
+      "cost-price"
+      "cost-info";
+    }
+     
+    .cost-heading {
+      font-size: 32px;
+      line-height: 36px;
+      letter-spacing: -0.25px;
+      margin-bottom: 15px;
+      grid-area: cost-heading;
+    }
+     
+    .cost-info {
+      font-size: 16px;
+      line-height: 22px;;
+      margin-bottom: 43px;
+      grid-area: cost-info;
+    }
+     
+    .cost-price {
+      font-size: 32px;
+      line-height: 36px;
+      margin-bottom: 29px;
+      letter-spacing: -0.25px;
+      grid-area: cost-price;
+    }
+     
+    .cost-order {
+      font-size: 32px;
+      line-height: 35px;;
+      letter-spacing: -0.3px;
+      margin-bottom: 18px;
+    }
+     
+    .cost-form-box {
+      row-gap: 8px;
+    }
+     
+    .cost-form-item {
+      width: 264px;
+      height: 48px;
+      border-radius: 12px;
+      padding: 14px 32px 14px 24px;
+      font-size: 16px;
+      line-height: 23px;
+    }
+     
+    .cost-form-item::placeholder {
+      font-size: 16px;
+      line-height: 23px;
+    }
+
+    .cost-order-link {
+      border-radius: 12px;
+      width: 263px;
+      height: 48px;
+      font-size: 16px;
+      line-height: 23px;
+    }
+     
+    .cost-warning, .cost-warning a {
+      color: #000000;
+      font-size: 14px;
+      line-height: 16px;
+      margin-top: 13px;
+    }
+
+    .reply {
+      margin-bottom: 86px;
+    }
+     
+    .reply-heading {
+      font-size: 32px;
+      line-height: 36px;
+      letter-spacing: -0.25px;
+      margin-bottom: 49px;
+    }
+
+    .arr-big {
+        width: 40px;
+        height: 33px;
+    }
+
+     
+    .reply-text {
+      font-size: 14px;
+      line-height: 20px;
+      width: 244px;
+    }
+     
+    .reply-person {
+      font-size: 16px;
+      line-height: 22px;
+    }
+
+    .for-frame {
+        position: relative;
+    }
+
+    .frame {
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: -50px;
+    }
+
+    .rest {
+        margin-bottom: 69px;
+      }
+      
+      .rest-heading {
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: -0.25px;
+        margin-bottom: 29px;
+      }
+      
+      .rest-col {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+      }
+      
+      .rest-block {
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+      }
+      
+      .rest-block-heading {
+        margin-bottom: 8px;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -0.05px;
+      }
+      
+      .rest-text {
+        font-size: 14px;
+        line-height: 20px;
+      }
+      
+          
+}
